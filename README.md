@@ -1,35 +1,58 @@
-# n8n Badminton POC
+# DCLT Badminton ICS
 
-Local proof-of-concept for projecting DCLT badminton availability into an n8n workflow.
+Public iCalendar feed of DCLT (GladstoneGo) badminton court availability. Subscribe in Apple Calendar, Google Calendar, Outlook — no auth.
 
-## Components
+## Feed
 
-- `checker/` — tiny Python HTTP service using the existing DCLT GladstoneGo anonymous API flow.
-- `n8n/` — n8n data volume.
-- `output/` — generated files / optional exported ICS.
-- `workflows/dclt-badminton-poc.json` — importable n8n workflow.
+```
+https://raw.githubusercontent.com/mike623/dclt-badminton-ics/main/calendar.ics
+```
 
-## Run
+Apple Calendar: **File → New Calendar Subscription** → paste URL → set **Location: On My Mac** (localhost not involved; "On My Mac" just means your Mac polls GitHub) → pick auto-refresh.
+
+## How it works
+
+The DCLT API only answers UK-residential IPs — datacenter IPs (incl. GitHub-hosted runners) get `403`. So generation runs **locally**; GitHub only hosts the file:
+
+```
+DCLT GladstoneGo API
+  → gen_ics.py  (reuses checker/dclt_checker_service.py: collect() + to_ics())
+  → calendar.ics
+  → git push
+  → GitHub serves the public feed
+  → Apple / Google / Outlook subscribe
+```
+
+- `publish-local.sh` runs on a macOS **launchd** timer every 30 min; commits only when availability actually changes (timestamp churn ignored).
+- GitHub Actions (`.github/workflows/publish-ics.yml`) **validates** the committed feed — it cannot generate (API blocks runner IPs).
+- Stable per-slot `UID` → calendar clients dedup / update / remove events automatically (no server-side diff).
+
+## Files
+
+| File | Purpose |
+|------|---------|
+| `gen_ics.py` | Headless ICS generator (stdlib only) |
+| `checker/dclt_checker_service.py` | DCLT availability fetch + ICS builder |
+| `publish-local.sh` | Generate + push; run by launchd |
+| `.github/workflows/publish-ics.yml` | Validates the committed ICS |
+| `calendar.ics` | The published feed |
+
+## Manual refresh
 
 ```bash
-cd /Users/mikewong/workspace/n8n-badminton-poc
-./run-poc.sh
+./publish-local.sh
 ```
 
-Then open:
+## Scheduler (macOS)
 
-```text
-http://localhost:5678
+```bash
+launchctl load   ~/Library/LaunchAgents/com.mike.dclt-badminton-ics.plist   # start
+launchctl unload ~/Library/LaunchAgents/com.mike.dclt-badminton-ics.plist   # stop
+tail -f /tmp/dclt-badminton-ics.log                                          # watch
 ```
 
-Checker endpoints:
+## Notes
 
-```text
-http://localhost:8787/healthz
-http://localhost:8787/availability?days=2
-http://localhost:8787/calendar.ics?days=2
-```
-
-## Google Calendar direction
-
-This POC stops at calendar-ready data / ICS. For real Google Calendar sharing, wire the n8n Google Calendar node to a dedicated calendar and upsert events using `slot.id` as the stable key / marker.
+- Availability only — final booking/pricing not verified.
+- Adwick (ADW) excluded.
+- Internal marker string `dclt-badminton-n8n-poc` is kept in UIDs/descriptions for subscriber continuity — changing it would re-create every event for existing subscribers.
