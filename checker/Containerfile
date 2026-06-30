@@ -1,0 +1,5 @@
+FROM docker.io/library/python:3.12-slim
+WORKDIR /app
+COPY dclt_checker_service.py /app/dclt_checker_service.py
+EXPOSE 8787
+CMD ["python", "/app/dclt_checker_service.py"]

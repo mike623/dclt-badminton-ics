@@ -1,0 +1,19 @@
+# Local Podman/n8n state — never publish
+n8n/
+n8n-host/
+output/
+.omc/
+.n8n-api-key
+
+# Throwaway API experiments (see HANDOVER.md)
+fetch-workflows.sh
+fetch_workflows.py
+test_api.py
+test_api2.py
+
+# Python
+__pycache__/
+*.pyc
+
+# Local env
+.env.n8n
