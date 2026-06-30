@@ -43,13 +43,29 @@ DCLT GladstoneGo API
 ./publish-local.sh
 ```
 
-## Scheduler (macOS)
+## Scheduler (macOS launchd)
+
+Install + load the timer (writes the plist with correct paths, default every 30 min):
 
 ```bash
-launchctl load   ~/Library/LaunchAgents/com.mike.dclt-badminton-ics.plist   # start
-launchctl unload ~/Library/LaunchAgents/com.mike.dclt-badminton-ics.plist   # stop
-tail -f /tmp/dclt-badminton-ics.log                                          # watch
+./setup-launchd.sh            # 30 min
+./setup-launchd.sh 600        # custom: every 10 min
 ```
+
+Manage it:
+
+```bash
+launchctl unload ~/Library/LaunchAgents/com.mike.dclt-badminton-ics.plist   # stop
+launchctl load   ~/Library/LaunchAgents/com.mike.dclt-badminton-ics.plist   # start
+launchctl list | grep dclt-badminton                                        # status (2nd col = last exit; 0=ok)
+launchctl start  com.mike.dclt-badminton-ics                                # run now
+tail -f /tmp/dclt-badminton-ics.log                                         # stdout log
+tail -f /tmp/dclt-badminton-ics.err                                         # error log
+```
+
+Uninstall: `launchctl unload` then `rm ~/Library/LaunchAgents/com.mike.dclt-badminton-ics.plist`.
+
+Notes: Mac must be awake at fire time; `git push` uses your ssh key (keychain) — push failures show in the `.err` log.
 
 ## Notes
 
