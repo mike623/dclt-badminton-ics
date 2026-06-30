@@ -1,42 +1,28 @@
-name: Publish badminton ICS
+name: Validate badminton ICS
+
+# NOTE: the DCLT GladstoneGo API 403s from datacenter IPs (GitHub-hosted runners),
+# so the ICS is generated on a UK-residential machine (see publish-local.sh + launchd)
+# and pushed here. This workflow only validates the committed feed — it does NOT call the API.
 
 on:
-  schedule:
-    # Every 20 min. GHA cron is best-effort — runs are often delayed and may be skipped under load.
-    - cron: "*/20 * * * *"
+  push:
+    paths: ["calendar.ics"]
   workflow_dispatch: {}
 
-# ponytail: schedule disables itself after 60 days of no *human* repo activity.
-# Bot commits below do NOT reset that timer — push a manual commit occasionally, or add a keepalive.
-
-permissions:
-  contents: write
-
-concurrency:
-  group: publish-ics
-  cancel-in-progress: false
-
 jobs:
-  build:
+  validate:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-
-      - name: Generate ICS
-        run: python3 gen_ics.py 2
-
-      - name: Commit only on real availability change
+      - name: Validate calendar.ics
         run: |
           set -euo pipefail
-          # Strip volatile lines (DTSTAMP, the "Checked:" timestamp) so timestamp churn alone never commits.
-          norm() { grep -vE '^DTSTAMP' "$1" | sed 's/Checked:[^\\]*/Checked:/'; }
-          if git show HEAD:calendar.ics > /tmp/old.ics 2>/dev/null \
-             && diff -q <(norm /tmp/old.ics) <(norm calendar.ics) >/dev/null; then
-            echo "No meaningful change; skipping commit."
-            exit 0
-          fi
-          git config user.name  "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add calendar.ics
-          git commit -m "chore: refresh badminton ICS [skip ci]"
-          git push
+          test -s calendar.ics
+          grep -q '^BEGIN:VCALENDAR' calendar.ics
+          grep -q '^END:VCALENDAR' calendar.ics
+          n=$(grep -c '^BEGIN:VEVENT' calendar.ics || true)
+          echo "VEVENT count: $n"
+          # every event needs a stable UID for client-side dedup/diff
+          u=$(grep -c '^UID:' calendar.ics || true)
+          [ "$n" -eq "$u" ] || { echo "UID count ($u) != VEVENT count ($n)"; exit 1; }
+          echo "OK"
