@@ -45,10 +45,10 @@ DCLT GladstoneGo API
 
 ## Scheduler (macOS launchd)
 
-Install + load the timer (writes the plist with correct paths, default every 30 min):
+Install + load the timer (writes the plist with correct paths, default every 15 min):
 
 ```bash
-./setup-launchd.sh            # 30 min
+./setup-launchd.sh            # 15 min
 ./setup-launchd.sh 600        # custom: every 10 min
 ```
 

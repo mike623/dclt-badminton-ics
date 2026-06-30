@@ -1,12 +1,12 @@
 #!/usr/bin/env bash
 # Install + (re)load the launchd agent that refreshes calendar.ics on a timer.
-# Usage: ./setup-launchd.sh [interval_seconds]   (default 1800 = 30 min)
+# Usage: ./setup-launchd.sh [interval_seconds]   (default 900 = 15 min)
 set -euo pipefail
 
 REPO="$(cd "$(dirname "$0")" && pwd)"
 LABEL="com.mike.dclt-badminton-ics"
 PLIST="$HOME/Library/LaunchAgents/$LABEL.plist"
-INTERVAL="${1:-1800}"
+INTERVAL="${1:-900}"
 
 mkdir -p "$HOME/Library/LaunchAgents"
 cat > "$PLIST" <<EOF
