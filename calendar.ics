@@ -5,14 +5,4 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 X-WR-CALNAME:DCLT Badminton Availability
 X-WR-TIMEZONE:Europe/London
-BEGIN:VEVENT
-UID:0f6107477a06f803@dclt-badminton-n8n-poc.local
-DTSTAMP:20260702T180425Z
-DTSTART:20260702T190000Z
-DTEND:20260702T195959Z
-SUMMARY:Dearne Valley Leisure Badminton
-LOCATION:Dearne Valley Leisure
-DESCRIPTION:Courts: Court 4\nBooking: https://dclt.gladstonego.cloud/book/calendar/DVBD4?activityDate=2026-07-02T19%3A00%3A00.000Z\nChecked: 2026-07-02T19:04:18.690328+01:00\nManaged by: dclt-badminton-n8n-poc\nSlot key: 0f6107477a06f803\nNote: API availability only\; final booking/pricing not verified.
-URL:https://dclt.gladstonego.cloud/book/calendar/DVBD4?activityDate=2026-07-02T19%3A00%3A00.000Z
-END:VEVENT
 END:VCALENDAR
