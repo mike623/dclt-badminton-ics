@@ -5,4 +5,24 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 X-WR-CALNAME:DCLT Badminton Availability
 X-WR-TIMEZONE:Europe/London
+BEGIN:VEVENT
+UID:99cd08af104ed007@dclt-badminton-n8n-poc.local
+DTSTAMP:20260716T230046Z
+DTSTART:20260718T160000Z
+DTEND:20260718T165959Z
+SUMMARY:Dearne Valley Leisure Badminton
+LOCATION:Dearne Valley Leisure
+DESCRIPTION:Courts: Court 1\, Court 2\nBooking: https://dclt.gladstonego.cloud/book/calendar/DVBD5?activityDate=2026-07-18T16%3A00%3A00.000Z\nChecked: 2026-07-17T00:00:40.901523+01:00\nManaged by: dclt-badminton-n8n-poc\nSlot key: 99cd08af104ed007\nNote: API availability only\; final booking/pricing not verified.
+URL:https://dclt.gladstonego.cloud/book/calendar/DVBD5?activityDate=2026-07-18T16%3A00%3A00.000Z
+END:VEVENT
+BEGIN:VEVENT
+UID:05d6c96fc63ce6c7@dclt-badminton-n8n-poc.local
+DTSTAMP:20260716T230046Z
+DTSTART:20260718T170000Z
+DTEND:20260718T175959Z
+SUMMARY:Dearne Valley Leisure Badminton
+LOCATION:Dearne Valley Leisure
+DESCRIPTION:Courts: Court 1\, Court 2\nBooking: https://dclt.gladstonego.cloud/book/calendar/DVBD5?activityDate=2026-07-18T17%3A00%3A00.000Z\nChecked: 2026-07-17T00:00:40.901523+01:00\nManaged by: dclt-badminton-n8n-poc\nSlot key: 05d6c96fc63ce6c7\nNote: API availability only\; final booking/pricing not verified.
+URL:https://dclt.gladstonego.cloud/book/calendar/DVBD5?activityDate=2026-07-18T17%3A00%3A00.000Z
+END:VEVENT
 END:VCALENDAR
