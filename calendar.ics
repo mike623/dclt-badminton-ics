@@ -5,14 +5,4 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 X-WR-CALNAME:DCLT Badminton Availability
 X-WR-TIMEZONE:Europe/London
-BEGIN:VEVENT
-UID:64bc1e92d4b9f2f5@dclt-badminton-n8n-poc.local
-DTSTAMP:20260716T181359Z
-DTSTART:20260716T190000Z
-DTEND:20260716T195959Z
-SUMMARY:The Dome Badminton
-LOCATION:The Dome
-DESCRIPTION:Courts: Main Hall C Court 12\nBooking: https://dclt.gladstonego.cloud/book/calendar/BAD4?activityDate=2026-07-16T19%3A00%3A00.000Z\nChecked: 2026-07-16T19:13:53.850821+01:00\nManaged by: dclt-badminton-n8n-poc\nSlot key: 64bc1e92d4b9f2f5\nNote: API availability only\; final booking/pricing not verified.
-URL:https://dclt.gladstonego.cloud/book/calendar/BAD4?activityDate=2026-07-16T19%3A00%3A00.000Z
-END:VEVENT
 END:VCALENDAR
