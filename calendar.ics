@@ -7,132 +7,132 @@ X-WR-CALNAME:DCLT Badminton Availability
 X-WR-TIMEZONE:Europe/London
 BEGIN:VEVENT
 UID:5caf71e210c87e6f@dclt-badminton-n8n-poc.local
-DTSTAMP:20260731T180557Z
+DTSTAMP:20260731T182106Z
 DTSTART:20260731T190000Z
 DTEND:20260731T195959Z
 SUMMARY:The Dome Badminton
 LOCATION:The Dome
-DESCRIPTION:Courts: Main Hall C Court 10\, Main Hall C Court 11\, Main Hall C Court 12\nBooking: https://dclt.gladstonego.cloud/book/calendar/BAD1?activityDate=2026-07-31T19%3A00%3A00.000Z\nChecked: 2026-07-31T19:05:51.547330+01:00\nManaged by: dclt-badminton-n8n-poc\nSlot key: 5caf71e210c87e6f\nNote: API availability only\; final booking/pricing not verified.
-URL:https://dclt.gladstonego.cloud/book/calendar/BAD1?activityDate=2026-07-31T19%3A00%3A00.000Z
+DESCRIPTION:Courts: Main Hall C Court 11\, Main Hall C Court 12\nBooking: https://dclt.gladstonego.cloud/book/calendar/BAD3?activityDate=2026-07-31T19%3A00%3A00.000Z\nChecked: 2026-07-31T19:21:00.429904+01:00\nManaged by: dclt-badminton-n8n-poc\nSlot key: 5caf71e210c87e6f\nNote: API availability only\; final booking/pricing not verified.
+URL:https://dclt.gladstonego.cloud/book/calendar/BAD3?activityDate=2026-07-31T19%3A00%3A00.000Z
 END:VEVENT
 BEGIN:VEVENT
 UID:8978791e417a4ce1@dclt-badminton-n8n-poc.local
-DTSTAMP:20260731T180557Z
+DTSTAMP:20260731T182106Z
 DTSTART:20260731T200000Z
 DTEND:20260731T205959Z
 SUMMARY:The Dome Badminton
 LOCATION:The Dome
-DESCRIPTION:Courts: Main Hall C Court 10\, Main Hall C Court 11\, Main Hall C Court 12\nBooking: https://dclt.gladstonego.cloud/book/calendar/BAD1?activityDate=2026-07-31T20%3A00%3A00.000Z\nChecked: 2026-07-31T19:05:51.547330+01:00\nManaged by: dclt-badminton-n8n-poc\nSlot key: 8978791e417a4ce1\nNote: API availability only\; final booking/pricing not verified.
+DESCRIPTION:Courts: Main Hall C Court 10\, Main Hall C Court 11\, Main Hall C Court 12\nBooking: https://dclt.gladstonego.cloud/book/calendar/BAD1?activityDate=2026-07-31T20%3A00%3A00.000Z\nChecked: 2026-07-31T19:21:00.429904+01:00\nManaged by: dclt-badminton-n8n-poc\nSlot key: 8978791e417a4ce1\nNote: API availability only\; final booking/pricing not verified.
 URL:https://dclt.gladstonego.cloud/book/calendar/BAD1?activityDate=2026-07-31T20%3A00%3A00.000Z
 END:VEVENT
 BEGIN:VEVENT
 UID:a2ee6ff73f5b3fe6@dclt-badminton-n8n-poc.local
-DTSTAMP:20260731T180557Z
+DTSTAMP:20260731T182106Z
 DTSTART:20260801T070000Z
 DTEND:20260801T075959Z
 SUMMARY:The Dome Badminton
 LOCATION:The Dome
-DESCRIPTION:Courts: Main Hall C Court 10\, Main Hall C Court 11\, Main Hall C Court 12\nBooking: https://dclt.gladstonego.cloud/book/calendar/BAD1?activityDate=2026-08-01T07%3A00%3A00.000Z\nChecked: 2026-07-31T19:05:51.547330+01:00\nManaged by: dclt-badminton-n8n-poc\nSlot key: a2ee6ff73f5b3fe6\nNote: API availability only\; final booking/pricing not verified.
+DESCRIPTION:Courts: Main Hall C Court 10\, Main Hall C Court 11\, Main Hall C Court 12\nBooking: https://dclt.gladstonego.cloud/book/calendar/BAD1?activityDate=2026-08-01T07%3A00%3A00.000Z\nChecked: 2026-07-31T19:21:00.429904+01:00\nManaged by: dclt-badminton-n8n-poc\nSlot key: a2ee6ff73f5b3fe6\nNote: API availability only\; final booking/pricing not verified.
 URL:https://dclt.gladstonego.cloud/book/calendar/BAD1?activityDate=2026-08-01T07%3A00%3A00.000Z
 END:VEVENT
 BEGIN:VEVENT
 UID:7bdaf543b8cdd69a@dclt-badminton-n8n-poc.local
-DTSTAMP:20260731T180557Z
+DTSTAMP:20260731T182106Z
 DTSTART:20260801T080000Z
 DTEND:20260801T085959Z
 SUMMARY:The Dome Badminton
 LOCATION:The Dome
-DESCRIPTION:Courts: Main Hall C Court 10\, Main Hall C Court 11\, Main Hall C Court 12\nBooking: https://dclt.gladstonego.cloud/book/calendar/BAD1?activityDate=2026-08-01T08%3A00%3A00.000Z\nChecked: 2026-07-31T19:05:51.547330+01:00\nManaged by: dclt-badminton-n8n-poc\nSlot key: 7bdaf543b8cdd69a\nNote: API availability only\; final booking/pricing not verified.
+DESCRIPTION:Courts: Main Hall C Court 10\, Main Hall C Court 11\, Main Hall C Court 12\nBooking: https://dclt.gladstonego.cloud/book/calendar/BAD1?activityDate=2026-08-01T08%3A00%3A00.000Z\nChecked: 2026-07-31T19:21:00.429904+01:00\nManaged by: dclt-badminton-n8n-poc\nSlot key: 7bdaf543b8cdd69a\nNote: API availability only\; final booking/pricing not verified.
 URL:https://dclt.gladstonego.cloud/book/calendar/BAD1?activityDate=2026-08-01T08%3A00%3A00.000Z
 END:VEVENT
 BEGIN:VEVENT
 UID:a432fa06c2444e83@dclt-badminton-n8n-poc.local
-DTSTAMP:20260731T180557Z
+DTSTAMP:20260731T182106Z
 DTSTART:20260801T090000Z
 DTEND:20260801T095959Z
 SUMMARY:The Dome Badminton
 LOCATION:The Dome
-DESCRIPTION:Courts: Main Hall C Court 11\, Main Hall C Court 12\nBooking: https://dclt.gladstonego.cloud/book/calendar/BAD3?activityDate=2026-08-01T09%3A00%3A00.000Z\nChecked: 2026-07-31T19:05:51.547330+01:00\nManaged by: dclt-badminton-n8n-poc\nSlot key: a432fa06c2444e83\nNote: API availability only\; final booking/pricing not verified.
+DESCRIPTION:Courts: Main Hall C Court 11\, Main Hall C Court 12\nBooking: https://dclt.gladstonego.cloud/book/calendar/BAD3?activityDate=2026-08-01T09%3A00%3A00.000Z\nChecked: 2026-07-31T19:21:00.429904+01:00\nManaged by: dclt-badminton-n8n-poc\nSlot key: a432fa06c2444e83\nNote: API availability only\; final booking/pricing not verified.
 URL:https://dclt.gladstonego.cloud/book/calendar/BAD3?activityDate=2026-08-01T09%3A00%3A00.000Z
 END:VEVENT
 BEGIN:VEVENT
 UID:7a282feeb11f0cfa@dclt-badminton-n8n-poc.local
-DTSTAMP:20260731T180557Z
+DTSTAMP:20260731T182106Z
 DTSTART:20260801T100000Z
 DTEND:20260801T105959Z
 SUMMARY:The Dome Badminton
 LOCATION:The Dome
-DESCRIPTION:Courts: Main Hall C Court 11\, Main Hall C Court 12\nBooking: https://dclt.gladstonego.cloud/book/calendar/BAD3?activityDate=2026-08-01T10%3A00%3A00.000Z\nChecked: 2026-07-31T19:05:51.547330+01:00\nManaged by: dclt-badminton-n8n-poc\nSlot key: 7a282feeb11f0cfa\nNote: API availability only\; final booking/pricing not verified.
+DESCRIPTION:Courts: Main Hall C Court 11\, Main Hall C Court 12\nBooking: https://dclt.gladstonego.cloud/book/calendar/BAD3?activityDate=2026-08-01T10%3A00%3A00.000Z\nChecked: 2026-07-31T19:21:00.429904+01:00\nManaged by: dclt-badminton-n8n-poc\nSlot key: 7a282feeb11f0cfa\nNote: API availability only\; final booking/pricing not verified.
 URL:https://dclt.gladstonego.cloud/book/calendar/BAD3?activityDate=2026-08-01T10%3A00%3A00.000Z
 END:VEVENT
 BEGIN:VEVENT
 UID:4f5c6d268ae4fcb3@dclt-badminton-n8n-poc.local
-DTSTAMP:20260731T180557Z
+DTSTAMP:20260731T182106Z
 DTSTART:20260801T110000Z
 DTEND:20260801T115959Z
 SUMMARY:The Dome Badminton
 LOCATION:The Dome
-DESCRIPTION:Courts: Main Hall C Court 11\, Main Hall C Court 12\nBooking: https://dclt.gladstonego.cloud/book/calendar/BAD3?activityDate=2026-08-01T11%3A00%3A00.000Z\nChecked: 2026-07-31T19:05:51.547330+01:00\nManaged by: dclt-badminton-n8n-poc\nSlot key: 4f5c6d268ae4fcb3\nNote: API availability only\; final booking/pricing not verified.
+DESCRIPTION:Courts: Main Hall C Court 11\, Main Hall C Court 12\nBooking: https://dclt.gladstonego.cloud/book/calendar/BAD3?activityDate=2026-08-01T11%3A00%3A00.000Z\nChecked: 2026-07-31T19:21:00.429904+01:00\nManaged by: dclt-badminton-n8n-poc\nSlot key: 4f5c6d268ae4fcb3\nNote: API availability only\; final booking/pricing not verified.
 URL:https://dclt.gladstonego.cloud/book/calendar/BAD3?activityDate=2026-08-01T11%3A00%3A00.000Z
 END:VEVENT
 BEGIN:VEVENT
 UID:84af59e215b7fde5@dclt-badminton-n8n-poc.local
-DTSTAMP:20260731T180557Z
+DTSTAMP:20260731T182106Z
 DTSTART:20260801T120000Z
 DTEND:20260801T125959Z
 SUMMARY:The Dome Badminton
 LOCATION:The Dome
-DESCRIPTION:Courts: Main Hall C Court 11\, Main Hall C Court 12\nBooking: https://dclt.gladstonego.cloud/book/calendar/BAD3?activityDate=2026-08-01T12%3A00%3A00.000Z\nChecked: 2026-07-31T19:05:51.547330+01:00\nManaged by: dclt-badminton-n8n-poc\nSlot key: 84af59e215b7fde5\nNote: API availability only\; final booking/pricing not verified.
+DESCRIPTION:Courts: Main Hall C Court 11\, Main Hall C Court 12\nBooking: https://dclt.gladstonego.cloud/book/calendar/BAD3?activityDate=2026-08-01T12%3A00%3A00.000Z\nChecked: 2026-07-31T19:21:00.429904+01:00\nManaged by: dclt-badminton-n8n-poc\nSlot key: 84af59e215b7fde5\nNote: API availability only\; final booking/pricing not verified.
 URL:https://dclt.gladstonego.cloud/book/calendar/BAD3?activityDate=2026-08-01T12%3A00%3A00.000Z
 END:VEVENT
 BEGIN:VEVENT
 UID:9e129f9f4a64ed34@dclt-badminton-n8n-poc.local
-DTSTAMP:20260731T180557Z
+DTSTAMP:20260731T182106Z
 DTSTART:20260801T130000Z
 DTEND:20260801T135959Z
 SUMMARY:The Dome Badminton
 LOCATION:The Dome
-DESCRIPTION:Courts: Main Hall C Court 10\, Main Hall C Court 11\, Main Hall C Court 12\nBooking: https://dclt.gladstonego.cloud/book/calendar/BAD1?activityDate=2026-08-01T13%3A00%3A00.000Z\nChecked: 2026-07-31T19:05:51.547330+01:00\nManaged by: dclt-badminton-n8n-poc\nSlot key: 9e129f9f4a64ed34\nNote: API availability only\; final booking/pricing not verified.
+DESCRIPTION:Courts: Main Hall C Court 10\, Main Hall C Court 11\, Main Hall C Court 12\nBooking: https://dclt.gladstonego.cloud/book/calendar/BAD1?activityDate=2026-08-01T13%3A00%3A00.000Z\nChecked: 2026-07-31T19:21:00.429904+01:00\nManaged by: dclt-badminton-n8n-poc\nSlot key: 9e129f9f4a64ed34\nNote: API availability only\; final booking/pricing not verified.
 URL:https://dclt.gladstonego.cloud/book/calendar/BAD1?activityDate=2026-08-01T13%3A00%3A00.000Z
 END:VEVENT
 BEGIN:VEVENT
 UID:0ea31ca10f4b287f@dclt-badminton-n8n-poc.local
-DTSTAMP:20260731T180557Z
+DTSTAMP:20260731T182106Z
 DTSTART:20260801T140000Z
 DTEND:20260801T145959Z
 SUMMARY:The Dome Badminton
 LOCATION:The Dome
-DESCRIPTION:Courts: Main Hall C Court 10\, Main Hall C Court 11\, Main Hall C Court 12\nBooking: https://dclt.gladstonego.cloud/book/calendar/BAD1?activityDate=2026-08-01T14%3A00%3A00.000Z\nChecked: 2026-07-31T19:05:51.547330+01:00\nManaged by: dclt-badminton-n8n-poc\nSlot key: 0ea31ca10f4b287f\nNote: API availability only\; final booking/pricing not verified.
+DESCRIPTION:Courts: Main Hall C Court 10\, Main Hall C Court 11\, Main Hall C Court 12\nBooking: https://dclt.gladstonego.cloud/book/calendar/BAD1?activityDate=2026-08-01T14%3A00%3A00.000Z\nChecked: 2026-07-31T19:21:00.429904+01:00\nManaged by: dclt-badminton-n8n-poc\nSlot key: 0ea31ca10f4b287f\nNote: API availability only\; final booking/pricing not verified.
 URL:https://dclt.gladstonego.cloud/book/calendar/BAD1?activityDate=2026-08-01T14%3A00%3A00.000Z
 END:VEVENT
 BEGIN:VEVENT
 UID:d17e3ba5e0699df6@dclt-badminton-n8n-poc.local
-DTSTAMP:20260731T180557Z
+DTSTAMP:20260731T182106Z
 DTSTART:20260801T150000Z
 DTEND:20260801T155959Z
 SUMMARY:The Dome Badminton
 LOCATION:The Dome
-DESCRIPTION:Courts: Main Hall C Court 10\, Main Hall C Court 11\, Main Hall C Court 12\nBooking: https://dclt.gladstonego.cloud/book/calendar/BAD1?activityDate=2026-08-01T15%3A00%3A00.000Z\nChecked: 2026-07-31T19:05:51.547330+01:00\nManaged by: dclt-badminton-n8n-poc\nSlot key: d17e3ba5e0699df6\nNote: API availability only\; final booking/pricing not verified.
+DESCRIPTION:Courts: Main Hall C Court 10\, Main Hall C Court 11\, Main Hall C Court 12\nBooking: https://dclt.gladstonego.cloud/book/calendar/BAD1?activityDate=2026-08-01T15%3A00%3A00.000Z\nChecked: 2026-07-31T19:21:00.429904+01:00\nManaged by: dclt-badminton-n8n-poc\nSlot key: d17e3ba5e0699df6\nNote: API availability only\; final booking/pricing not verified.
 URL:https://dclt.gladstonego.cloud/book/calendar/BAD1?activityDate=2026-08-01T15%3A00%3A00.000Z
 END:VEVENT
 BEGIN:VEVENT
 UID:21aaeabe8f46d469@dclt-badminton-n8n-poc.local
-DTSTAMP:20260731T180557Z
+DTSTAMP:20260731T182106Z
 DTSTART:20260801T160000Z
 DTEND:20260801T165959Z
 SUMMARY:Dearne Valley Leisure Badminton
 LOCATION:Dearne Valley Leisure
-DESCRIPTION:Courts: Court 1\, Court 2\nBooking: https://dclt.gladstonego.cloud/book/calendar/DVBD5?activityDate=2026-08-01T16%3A00%3A00.000Z\nChecked: 2026-07-31T19:05:51.547330+01:00\nManaged by: dclt-badminton-n8n-poc\nSlot key: 21aaeabe8f46d469\nNote: API availability only\; final booking/pricing not verified.
+DESCRIPTION:Courts: Court 1\, Court 2\nBooking: https://dclt.gladstonego.cloud/book/calendar/DVBD5?activityDate=2026-08-01T16%3A00%3A00.000Z\nChecked: 2026-07-31T19:21:00.429904+01:00\nManaged by: dclt-badminton-n8n-poc\nSlot key: 21aaeabe8f46d469\nNote: API availability only\; final booking/pricing not verified.
 URL:https://dclt.gladstonego.cloud/book/calendar/DVBD5?activityDate=2026-08-01T16%3A00%3A00.000Z
 END:VEVENT
 BEGIN:VEVENT
 UID:eb14975c00442b9e@dclt-badminton-n8n-poc.local
-DTSTAMP:20260731T180557Z
+DTSTAMP:20260731T182106Z
 DTSTART:20260801T170000Z
 DTEND:20260801T175959Z
 SUMMARY:Dearne Valley Leisure Badminton
 LOCATION:Dearne Valley Leisure
-DESCRIPTION:Courts: Court 1\, Court 2\nBooking: https://dclt.gladstonego.cloud/book/calendar/DVBD5?activityDate=2026-08-01T17%3A00%3A00.000Z\nChecked: 2026-07-31T19:05:51.547330+01:00\nManaged by: dclt-badminton-n8n-poc\nSlot key: eb14975c00442b9e\nNote: API availability only\; final booking/pricing not verified.
+DESCRIPTION:Courts: Court 1\, Court 2\nBooking: https://dclt.gladstonego.cloud/book/calendar/DVBD5?activityDate=2026-08-01T17%3A00%3A00.000Z\nChecked: 2026-07-31T19:21:00.429904+01:00\nManaged by: dclt-badminton-n8n-poc\nSlot key: eb14975c00442b9e\nNote: API availability only\; final booking/pricing not verified.
 URL:https://dclt.gladstonego.cloud/book/calendar/DVBD5?activityDate=2026-08-01T17%3A00%3A00.000Z
 END:VEVENT
 END:VCALENDAR
