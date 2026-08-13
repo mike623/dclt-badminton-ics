@@ -1,6 +1,8 @@
 # DCLT Badminton ICS
 
-Public iCalendar feed of DCLT (GladstoneGo) badminton court availability. Subscribe in Apple Calendar, Google Calendar, Outlook — no auth.
+Public iCalendar feed of DCLT (GladstoneGo) badminton and squash court availability, mixed into one feed. Subscribe in Apple Calendar, Google Calendar, Outlook — no auth.
+
+Squash is offered at The Dome only; badminton spans the other configured sites. Event summaries name the sport (`The Dome Squash`).
 
 ## Feed
 
@@ -33,6 +35,7 @@ DCLT GladstoneGo API
 |------|---------|
 | `gen_ics.py` | Headless ICS generator (stdlib only) |
 | `checker/dclt_checker_service.py` | DCLT availability fetch + ICS builder |
+| `test_slot_key.py` | Self-check: sport-aware, churn-free slot keys |
 | `publish-local.sh` | Generate + push; run by launchd |
 | `.github/workflows/publish-ics.yml` | Validates the committed ICS |
 | `calendar.ics` | The published feed |
@@ -72,3 +75,6 @@ Notes: Mac must be awake at fire time; `git push` uses your ssh key (keychain) �
 - Availability only — final booking/pricing not verified.
 - Adwick (ADW) excluded.
 - Internal marker string `dclt-badminton-n8n-poc` is kept in UIDs/descriptions for subscriber continuity — changing it would re-create every event for existing subscribers.
+- Same reason: badminton slot keys hash the pre-squash input verbatim; only non-badminton sports append the sport to the hashed string. Badminton UIDs are unchanged.
+- Sport filters are hardcoded (`badminton`, `squash`) — no config registry by design.
+- `test_slot_key.py` pins both rules; run `python3 test_slot_key.py`.
