@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""DCLT badminton availability service for n8n POC.
+"""DCLT badminton + squash availability service for n8n POC.
 
 Endpoints:
   GET /healthz
@@ -69,10 +69,22 @@ def iso_z(d: dt.datetime) -> str:
     return d.astimezone(dt.timezone.utc).isoformat(timespec="milliseconds").replace("+00:00", "Z")
 
 
-def get_badminton_activities(opener, site_id: str):
+def get_sport_activities(opener, site_id: str):
+    """Yield (activity, sport) for every bookable activity we care about at a site.
+
+    Second filter is hardcoded on purpose — two sports, no registry. Squash exists
+    only at The Dome, which falls out of the per-site loop with no site-list change.
+    """
     path = f"/api/search/activities/?siteIds={urllib.parse.quote(site_id)}&webBookableOnly=true"
     activities = api_get(opener, path) or []
-    return [a for a in activities if "badminton" in (a.get("name") or a.get("description") or "").lower()]
+    out = []
+    for a in activities:
+        label = (a.get("name") or a.get("description") or "").lower()
+        for needle, sport in (("badminton", "Badminton"), ("squash", "Squash")):
+            if needle in label:
+                out.append((a, sport))
+                break
+    return out
 
 
 def get_availability(opener, site_id: str, activity_id: str, date_from: dt.datetime):
@@ -91,8 +103,12 @@ def slot_to_local(slot):
     return start, end
 
 
-def slot_key(site_id: str, venue: str, start: dt.datetime, end: dt.datetime) -> str:
+def slot_key(site_id: str, venue: str, start: dt.datetime, end: dt.datetime, sport: str = "Badminton") -> str:
+    # Badminton input stays byte-identical to the pre-squash format so existing UIDs
+    # (and therefore every subscribed calendar's events) survive untouched.
     raw = f"{site_id}|{venue}|{start.isoformat()}|{end.isoformat()}"
+    if sport != "Badminton":
+        raw += f"|{sport}"
     return hashlib.sha1(raw.encode()).hexdigest()[:16]
 
 
@@ -112,12 +128,12 @@ def collect(days: int = 2) -> dict:
 
     for site_id, site_name in SITES.items():
         try:
-            activities = get_badminton_activities(opener, site_id)
+            activities = get_sport_activities(opener, site_id)
         except Exception as e:
             errors.append(f"{site_name}: activity search failed ({type(e).__name__})")
             continue
 
-        for activity in activities:
+        for activity, sport in activities:
             aid = activity.get("id")
             aname = activity.get("name") or activity.get("description") or aid
             if not aid:
@@ -142,14 +158,15 @@ def collect(days: int = 2) -> dict:
                         avail = ((slot.get("availability") or {}).get("inCentre") or 0) > 0
                         if status != "Available" or not avail:
                             continue
-                        key = slot_key(site_id, site_name, start, end)
+                        key = slot_key(site_id, site_name, start, end, sport)
                         event = by_key.setdefault(key, {
                             "id": key,
                             "manager": MANAGER,
                             "source": "dclt_api_availability_not_pricing_verified",
                             "site_id": site_id,
                             "venue": site_name,
-                            "title": f"{site_name} Badminton",
+                            "sport": sport,
+                            "title": f"{site_name} {sport}",
                             "date": start.date().isoformat(),
                             "start": start.isoformat(),
                             "end": end.isoformat(),
@@ -187,10 +204,10 @@ def to_ics(payload: dict) -> str:
     lines = [
         "BEGIN:VCALENDAR",
         "VERSION:2.0",
-        "PRODID:-//Hermes//DCLT Badminton n8n POC//EN",
+        "PRODID:-//Hermes//DCLT Badminton & Squash n8n POC//EN",
         "CALSCALE:GREGORIAN",
         "METHOD:PUBLISH",
-        "X-WR-CALNAME:DCLT Badminton Availability",
+        "X-WR-CALNAME:DCLT Badminton & Squash Availability",
         "X-WR-TIMEZONE:Europe/London",
     ]
     for slot in payload["slots"]:
