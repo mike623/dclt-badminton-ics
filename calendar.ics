@@ -7,182 +7,182 @@ X-WR-CALNAME:DCLT Badminton & Squash Availability
 X-WR-TIMEZONE:Europe/London
 BEGIN:VEVENT
 UID:02501db4df9aa304@dclt-badminton-n8n-poc.local
-DTSTAMP:20261113T152841Z
+DTSTAMP:20261113T155859Z
 DTSTART:20261113T161500Z
 DTEND:20261113T165459Z
 SUMMARY:The Dome Squash
 LOCATION:The Dome
-DESCRIPTION:Courts: Squash Court 1\, Squash Court 2\, Squash Court 3\nBooking: https://dclt.gladstonego.cloud/book/calendar/SQUAS?activityDate=2026-11-13T16%3A15%3A00.000Z\nChecked: 2026-11-13T15:28:33.401963+00:00\nManaged by: dclt-badminton-n8n-poc\nSlot key: 02501db4df9aa304\nNote: API availability only\; final booking/pricing not verified.
+DESCRIPTION:Courts: Squash Court 1\, Squash Court 2\, Squash Court 3\nBooking: https://dclt.gladstonego.cloud/book/calendar/SQUAS?activityDate=2026-11-13T16%3A15%3A00.000Z\nChecked: 2026-11-13T15:58:52.744424+00:00\nManaged by: dclt-badminton-n8n-poc\nSlot key: 02501db4df9aa304\nNote: API availability only\; final booking/pricing not verified.
 URL:https://dclt.gladstonego.cloud/book/calendar/SQUAS?activityDate=2026-11-13T16%3A15%3A00.000Z
 END:VEVENT
 BEGIN:VEVENT
 UID:bd5f87ee7361e4fc@dclt-badminton-n8n-poc.local
-DTSTAMP:20261113T152841Z
+DTSTAMP:20261113T155859Z
 DTSTART:20261113T171500Z
 DTEND:20261113T175459Z
 SUMMARY:The Dome Squash
 LOCATION:The Dome
-DESCRIPTION:Courts: Squash Court 1\, Squash Court 2\, Squash Court 3\nBooking: https://dclt.gladstonego.cloud/book/calendar/SQUAS?activityDate=2026-11-13T17%3A15%3A00.000Z\nChecked: 2026-11-13T15:28:33.401963+00:00\nManaged by: dclt-badminton-n8n-poc\nSlot key: bd5f87ee7361e4fc\nNote: API availability only\; final booking/pricing not verified.
+DESCRIPTION:Courts: Squash Court 1\, Squash Court 2\, Squash Court 3\nBooking: https://dclt.gladstonego.cloud/book/calendar/SQUAS?activityDate=2026-11-13T17%3A15%3A00.000Z\nChecked: 2026-11-13T15:58:52.744424+00:00\nManaged by: dclt-badminton-n8n-poc\nSlot key: bd5f87ee7361e4fc\nNote: API availability only\; final booking/pricing not verified.
 URL:https://dclt.gladstonego.cloud/book/calendar/SQUAS?activityDate=2026-11-13T17%3A15%3A00.000Z
 END:VEVENT
 BEGIN:VEVENT
 UID:c99eff7c0b629911@dclt-badminton-n8n-poc.local
-DTSTAMP:20261113T152841Z
+DTSTAMP:20261113T155859Z
 DTSTART:20261113T181500Z
 DTEND:20261113T185459Z
 SUMMARY:The Dome Squash
 LOCATION:The Dome
-DESCRIPTION:Courts: Squash Court 1\, Squash Court 2\, Squash Court 3\nBooking: https://dclt.gladstonego.cloud/book/calendar/SQUAS?activityDate=2026-11-13T18%3A15%3A00.000Z\nChecked: 2026-11-13T15:28:33.401963+00:00\nManaged by: dclt-badminton-n8n-poc\nSlot key: c99eff7c0b629911\nNote: API availability only\; final booking/pricing not verified.
+DESCRIPTION:Courts: Squash Court 1\, Squash Court 2\, Squash Court 3\nBooking: https://dclt.gladstonego.cloud/book/calendar/SQUAS?activityDate=2026-11-13T18%3A15%3A00.000Z\nChecked: 2026-11-13T15:58:52.744424+00:00\nManaged by: dclt-badminton-n8n-poc\nSlot key: c99eff7c0b629911\nNote: API availability only\; final booking/pricing not verified.
 URL:https://dclt.gladstonego.cloud/book/calendar/SQUAS?activityDate=2026-11-13T18%3A15%3A00.000Z
 END:VEVENT
 BEGIN:VEVENT
 UID:9a0289833908c2fa@dclt-badminton-n8n-poc.local
-DTSTAMP:20261113T152841Z
+DTSTAMP:20261113T155859Z
 DTSTART:20261113T191500Z
 DTEND:20261113T195459Z
 SUMMARY:The Dome Squash
 LOCATION:The Dome
-DESCRIPTION:Courts: Squash Court 1\, Squash Court 2\, Squash Court 3\nBooking: https://dclt.gladstonego.cloud/book/calendar/SQUAS?activityDate=2026-11-13T19%3A15%3A00.000Z\nChecked: 2026-11-13T15:28:33.401963+00:00\nManaged by: dclt-badminton-n8n-poc\nSlot key: 9a0289833908c2fa\nNote: API availability only\; final booking/pricing not verified.
+DESCRIPTION:Courts: Squash Court 1\, Squash Court 2\, Squash Court 3\nBooking: https://dclt.gladstonego.cloud/book/calendar/SQUAS?activityDate=2026-11-13T19%3A15%3A00.000Z\nChecked: 2026-11-13T15:58:52.744424+00:00\nManaged by: dclt-badminton-n8n-poc\nSlot key: 9a0289833908c2fa\nNote: API availability only\; final booking/pricing not verified.
 URL:https://dclt.gladstonego.cloud/book/calendar/SQUAS?activityDate=2026-11-13T19%3A15%3A00.000Z
 END:VEVENT
 BEGIN:VEVENT
 UID:fcdaa4bf42efa7ec@dclt-badminton-n8n-poc.local
-DTSTAMP:20261113T152841Z
+DTSTAMP:20261113T155859Z
 DTSTART:20261113T201500Z
 DTEND:20261113T205459Z
 SUMMARY:The Dome Squash
 LOCATION:The Dome
-DESCRIPTION:Courts: Squash Court 1\, Squash Court 2\, Squash Court 3\nBooking: https://dclt.gladstonego.cloud/book/calendar/SQUAS?activityDate=2026-11-13T20%3A15%3A00.000Z\nChecked: 2026-11-13T15:28:33.401963+00:00\nManaged by: dclt-badminton-n8n-poc\nSlot key: fcdaa4bf42efa7ec\nNote: API availability only\; final booking/pricing not verified.
+DESCRIPTION:Courts: Squash Court 1\, Squash Court 2\, Squash Court 3\nBooking: https://dclt.gladstonego.cloud/book/calendar/SQUAS?activityDate=2026-11-13T20%3A15%3A00.000Z\nChecked: 2026-11-13T15:58:52.744424+00:00\nManaged by: dclt-badminton-n8n-poc\nSlot key: fcdaa4bf42efa7ec\nNote: API availability only\; final booking/pricing not verified.
 URL:https://dclt.gladstonego.cloud/book/calendar/SQUAS?activityDate=2026-11-13T20%3A15%3A00.000Z
 END:VEVENT
 BEGIN:VEVENT
 UID:fe526ed98db8b835@dclt-badminton-n8n-poc.local
-DTSTAMP:20261113T152841Z
+DTSTAMP:20261113T155859Z
 DTSTART:20261113T211500Z
 DTEND:20261113T215459Z
 SUMMARY:The Dome Squash
 LOCATION:The Dome
-DESCRIPTION:Courts: Squash Court 1\, Squash Court 2\, Squash Court 3\nBooking: https://dclt.gladstonego.cloud/book/calendar/SQUAS?activityDate=2026-11-13T21%3A15%3A00.000Z\nChecked: 2026-11-13T15:28:33.401963+00:00\nManaged by: dclt-badminton-n8n-poc\nSlot key: fe526ed98db8b835\nNote: API availability only\; final booking/pricing not verified.
-URL:https://dclt.gladstonego.cloud/book/calendar/SQUAS?activityDate=2026-11-13T21%3A15%3A00.000Z
+DESCRIPTION:Courts: Squash Court 2\, Squash Court 3\nBooking: https://dclt.gladstonego.cloud/book/calendar/SQUASCT2?activityDate=2026-11-13T21%3A15%3A00.000Z\nChecked: 2026-11-13T15:58:52.744424+00:00\nManaged by: dclt-badminton-n8n-poc\nSlot key: fe526ed98db8b835\nNote: API availability only\; final booking/pricing not verified.
+URL:https://dclt.gladstonego.cloud/book/calendar/SQUASCT2?activityDate=2026-11-13T21%3A15%3A00.000Z
 END:VEVENT
 BEGIN:VEVENT
 UID:e51b9b94cd4ed9bd@dclt-badminton-n8n-poc.local
-DTSTAMP:20261113T152841Z
+DTSTAMP:20261113T155859Z
 DTSTART:20261114T071500Z
 DTEND:20261114T075459Z
 SUMMARY:The Dome Squash
 LOCATION:The Dome
-DESCRIPTION:Courts: Squash Court 1\, Squash Court 2\nBooking: https://dclt.gladstonego.cloud/book/calendar/SQUAS?activityDate=2026-11-14T07%3A15%3A00.000Z\nChecked: 2026-11-13T15:28:33.401963+00:00\nManaged by: dclt-badminton-n8n-poc\nSlot key: e51b9b94cd4ed9bd\nNote: API availability only\; final booking/pricing not verified.
+DESCRIPTION:Courts: Squash Court 1\, Squash Court 2\nBooking: https://dclt.gladstonego.cloud/book/calendar/SQUAS?activityDate=2026-11-14T07%3A15%3A00.000Z\nChecked: 2026-11-13T15:58:52.744424+00:00\nManaged by: dclt-badminton-n8n-poc\nSlot key: e51b9b94cd4ed9bd\nNote: API availability only\; final booking/pricing not verified.
 URL:https://dclt.gladstonego.cloud/book/calendar/SQUAS?activityDate=2026-11-14T07%3A15%3A00.000Z
 END:VEVENT
 BEGIN:VEVENT
 UID:8ffb887f245054e1@dclt-badminton-n8n-poc.local
-DTSTAMP:20261113T152841Z
+DTSTAMP:20261113T155859Z
 DTSTART:20261114T081500Z
 DTEND:20261114T085459Z
 SUMMARY:The Dome Squash
 LOCATION:The Dome
-DESCRIPTION:Courts: Squash Court 2\, Squash Court 3\nBooking: https://dclt.gladstonego.cloud/book/calendar/SQUASCT2?activityDate=2026-11-14T08%3A15%3A00.000Z\nChecked: 2026-11-13T15:28:33.401963+00:00\nManaged by: dclt-badminton-n8n-poc\nSlot key: 8ffb887f245054e1\nNote: API availability only\; final booking/pricing not verified.
+DESCRIPTION:Courts: Squash Court 2\, Squash Court 3\nBooking: https://dclt.gladstonego.cloud/book/calendar/SQUASCT2?activityDate=2026-11-14T08%3A15%3A00.000Z\nChecked: 2026-11-13T15:58:52.744424+00:00\nManaged by: dclt-badminton-n8n-poc\nSlot key: 8ffb887f245054e1\nNote: API availability only\; final booking/pricing not verified.
 URL:https://dclt.gladstonego.cloud/book/calendar/SQUASCT2?activityDate=2026-11-14T08%3A15%3A00.000Z
 END:VEVENT
 BEGIN:VEVENT
 UID:25aa7f16d39a9e74@dclt-badminton-n8n-poc.local
-DTSTAMP:20261113T152841Z
+DTSTAMP:20261113T155859Z
 DTSTART:20261114T091500Z
 DTEND:20261114T095459Z
 SUMMARY:The Dome Squash
 LOCATION:The Dome
-DESCRIPTION:Courts: Squash Court 1\, Squash Court 3\nBooking: https://dclt.gladstonego.cloud/book/calendar/SQUAS?activityDate=2026-11-14T09%3A15%3A00.000Z\nChecked: 2026-11-13T15:28:33.401963+00:00\nManaged by: dclt-badminton-n8n-poc\nSlot key: 25aa7f16d39a9e74\nNote: API availability only\; final booking/pricing not verified.
+DESCRIPTION:Courts: Squash Court 1\, Squash Court 3\nBooking: https://dclt.gladstonego.cloud/book/calendar/SQUAS?activityDate=2026-11-14T09%3A15%3A00.000Z\nChecked: 2026-11-13T15:58:52.744424+00:00\nManaged by: dclt-badminton-n8n-poc\nSlot key: 25aa7f16d39a9e74\nNote: API availability only\; final booking/pricing not verified.
 URL:https://dclt.gladstonego.cloud/book/calendar/SQUAS?activityDate=2026-11-14T09%3A15%3A00.000Z
 END:VEVENT
 BEGIN:VEVENT
 UID:c541c0544d136245@dclt-badminton-n8n-poc.local
-DTSTAMP:20261113T152841Z
+DTSTAMP:20261113T155859Z
 DTSTART:20261114T101500Z
 DTEND:20261114T105459Z
 SUMMARY:The Dome Squash
 LOCATION:The Dome
-DESCRIPTION:Courts: Squash Court 1\, Squash Court 2\, Squash Court 3\nBooking: https://dclt.gladstonego.cloud/book/calendar/SQUAS?activityDate=2026-11-14T10%3A15%3A00.000Z\nChecked: 2026-11-13T15:28:33.401963+00:00\nManaged by: dclt-badminton-n8n-poc\nSlot key: c541c0544d136245\nNote: API availability only\; final booking/pricing not verified.
+DESCRIPTION:Courts: Squash Court 1\, Squash Court 2\, Squash Court 3\nBooking: https://dclt.gladstonego.cloud/book/calendar/SQUAS?activityDate=2026-11-14T10%3A15%3A00.000Z\nChecked: 2026-11-13T15:58:52.744424+00:00\nManaged by: dclt-badminton-n8n-poc\nSlot key: c541c0544d136245\nNote: API availability only\; final booking/pricing not verified.
 URL:https://dclt.gladstonego.cloud/book/calendar/SQUAS?activityDate=2026-11-14T10%3A15%3A00.000Z
 END:VEVENT
 BEGIN:VEVENT
 UID:09fe16572ef577ab@dclt-badminton-n8n-poc.local
-DTSTAMP:20261113T152841Z
+DTSTAMP:20261113T155859Z
 DTSTART:20261114T111500Z
 DTEND:20261114T115459Z
 SUMMARY:The Dome Squash
 LOCATION:The Dome
-DESCRIPTION:Courts: Squash Court 1\, Squash Court 2\, Squash Court 3\nBooking: https://dclt.gladstonego.cloud/book/calendar/SQUAS?activityDate=2026-11-14T11%3A15%3A00.000Z\nChecked: 2026-11-13T15:28:33.401963+00:00\nManaged by: dclt-badminton-n8n-poc\nSlot key: 09fe16572ef577ab\nNote: API availability only\; final booking/pricing not verified.
+DESCRIPTION:Courts: Squash Court 1\, Squash Court 2\, Squash Court 3\nBooking: https://dclt.gladstonego.cloud/book/calendar/SQUAS?activityDate=2026-11-14T11%3A15%3A00.000Z\nChecked: 2026-11-13T15:58:52.744424+00:00\nManaged by: dclt-badminton-n8n-poc\nSlot key: 09fe16572ef577ab\nNote: API availability only\; final booking/pricing not verified.
 URL:https://dclt.gladstonego.cloud/book/calendar/SQUAS?activityDate=2026-11-14T11%3A15%3A00.000Z
 END:VEVENT
 BEGIN:VEVENT
 UID:98819f6895d0db95@dclt-badminton-n8n-poc.local
-DTSTAMP:20261113T152841Z
+DTSTAMP:20261113T155859Z
 DTSTART:20261114T121500Z
 DTEND:20261114T125459Z
 SUMMARY:The Dome Squash
 LOCATION:The Dome
-DESCRIPTION:Courts: Squash Court 1\, Squash Court 2\, Squash Court 3\nBooking: https://dclt.gladstonego.cloud/book/calendar/SQUAS?activityDate=2026-11-14T12%3A15%3A00.000Z\nChecked: 2026-11-13T15:28:33.401963+00:00\nManaged by: dclt-badminton-n8n-poc\nSlot key: 98819f6895d0db95\nNote: API availability only\; final booking/pricing not verified.
+DESCRIPTION:Courts: Squash Court 1\, Squash Court 2\, Squash Court 3\nBooking: https://dclt.gladstonego.cloud/book/calendar/SQUAS?activityDate=2026-11-14T12%3A15%3A00.000Z\nChecked: 2026-11-13T15:58:52.744424+00:00\nManaged by: dclt-badminton-n8n-poc\nSlot key: 98819f6895d0db95\nNote: API availability only\; final booking/pricing not verified.
 URL:https://dclt.gladstonego.cloud/book/calendar/SQUAS?activityDate=2026-11-14T12%3A15%3A00.000Z
 END:VEVENT
 BEGIN:VEVENT
 UID:53a29b280847ffd4@dclt-badminton-n8n-poc.local
-DTSTAMP:20261113T152841Z
+DTSTAMP:20261113T155859Z
 DTSTART:20261114T131500Z
 DTEND:20261114T135459Z
 SUMMARY:The Dome Squash
 LOCATION:The Dome
-DESCRIPTION:Courts: Squash Court 1\, Squash Court 2\, Squash Court 3\nBooking: https://dclt.gladstonego.cloud/book/calendar/SQUAS?activityDate=2026-11-14T13%3A15%3A00.000Z\nChecked: 2026-11-13T15:28:33.401963+00:00\nManaged by: dclt-badminton-n8n-poc\nSlot key: 53a29b280847ffd4\nNote: API availability only\; final booking/pricing not verified.
+DESCRIPTION:Courts: Squash Court 1\, Squash Court 2\, Squash Court 3\nBooking: https://dclt.gladstonego.cloud/book/calendar/SQUAS?activityDate=2026-11-14T13%3A15%3A00.000Z\nChecked: 2026-11-13T15:58:52.744424+00:00\nManaged by: dclt-badminton-n8n-poc\nSlot key: 53a29b280847ffd4\nNote: API availability only\; final booking/pricing not verified.
 URL:https://dclt.gladstonego.cloud/book/calendar/SQUAS?activityDate=2026-11-14T13%3A15%3A00.000Z
 END:VEVENT
 BEGIN:VEVENT
 UID:69be360cc159b0e9@dclt-badminton-n8n-poc.local
-DTSTAMP:20261113T152841Z
+DTSTAMP:20261113T155859Z
 DTSTART:20261114T141500Z
 DTEND:20261114T145459Z
 SUMMARY:The Dome Squash
 LOCATION:The Dome
-DESCRIPTION:Courts: Squash Court 1\, Squash Court 2\, Squash Court 3\nBooking: https://dclt.gladstonego.cloud/book/calendar/SQUAS?activityDate=2026-11-14T14%3A15%3A00.000Z\nChecked: 2026-11-13T15:28:33.401963+00:00\nManaged by: dclt-badminton-n8n-poc\nSlot key: 69be360cc159b0e9\nNote: API availability only\; final booking/pricing not verified.
+DESCRIPTION:Courts: Squash Court 1\, Squash Court 2\, Squash Court 3\nBooking: https://dclt.gladstonego.cloud/book/calendar/SQUAS?activityDate=2026-11-14T14%3A15%3A00.000Z\nChecked: 2026-11-13T15:58:52.744424+00:00\nManaged by: dclt-badminton-n8n-poc\nSlot key: 69be360cc159b0e9\nNote: API availability only\; final booking/pricing not verified.
 URL:https://dclt.gladstonego.cloud/book/calendar/SQUAS?activityDate=2026-11-14T14%3A15%3A00.000Z
 END:VEVENT
 BEGIN:VEVENT
 UID:9dedfd9229c47099@dclt-badminton-n8n-poc.local
-DTSTAMP:20261113T152841Z
+DTSTAMP:20261113T155859Z
 DTSTART:20261114T151500Z
 DTEND:20261114T155459Z
 SUMMARY:The Dome Squash
 LOCATION:The Dome
-DESCRIPTION:Courts: Squash Court 1\, Squash Court 2\, Squash Court 3\nBooking: https://dclt.gladstonego.cloud/book/calendar/SQUAS?activityDate=2026-11-14T15%3A15%3A00.000Z\nChecked: 2026-11-13T15:28:33.401963+00:00\nManaged by: dclt-badminton-n8n-poc\nSlot key: 9dedfd9229c47099\nNote: API availability only\; final booking/pricing not verified.
+DESCRIPTION:Courts: Squash Court 1\, Squash Court 2\, Squash Court 3\nBooking: https://dclt.gladstonego.cloud/book/calendar/SQUAS?activityDate=2026-11-14T15%3A15%3A00.000Z\nChecked: 2026-11-13T15:58:52.744424+00:00\nManaged by: dclt-badminton-n8n-poc\nSlot key: 9dedfd9229c47099\nNote: API availability only\; final booking/pricing not verified.
 URL:https://dclt.gladstonego.cloud/book/calendar/SQUAS?activityDate=2026-11-14T15%3A15%3A00.000Z
 END:VEVENT
 BEGIN:VEVENT
 UID:d9235ace0251af98@dclt-badminton-n8n-poc.local
-DTSTAMP:20261113T152841Z
+DTSTAMP:20261113T155859Z
 DTSTART:20261114T161500Z
 DTEND:20261114T165459Z
 SUMMARY:The Dome Squash
 LOCATION:The Dome
-DESCRIPTION:Courts: Squash Court 1\, Squash Court 2\, Squash Court 3\nBooking: https://dclt.gladstonego.cloud/book/calendar/SQUAS?activityDate=2026-11-14T16%3A15%3A00.000Z\nChecked: 2026-11-13T15:28:33.401963+00:00\nManaged by: dclt-badminton-n8n-poc\nSlot key: d9235ace0251af98\nNote: API availability only\; final booking/pricing not verified.
+DESCRIPTION:Courts: Squash Court 1\, Squash Court 2\, Squash Court 3\nBooking: https://dclt.gladstonego.cloud/book/calendar/SQUAS?activityDate=2026-11-14T16%3A15%3A00.000Z\nChecked: 2026-11-13T15:58:52.744424+00:00\nManaged by: dclt-badminton-n8n-poc\nSlot key: d9235ace0251af98\nNote: API availability only\; final booking/pricing not verified.
 URL:https://dclt.gladstonego.cloud/book/calendar/SQUAS?activityDate=2026-11-14T16%3A15%3A00.000Z
 END:VEVENT
 BEGIN:VEVENT
 UID:ad48b515f94e0bde@dclt-badminton-n8n-poc.local
-DTSTAMP:20261113T152841Z
+DTSTAMP:20261113T155859Z
 DTSTART:20261114T170000Z
 DTEND:20261114T175959Z
 SUMMARY:Dearne Valley Leisure Badminton
 LOCATION:Dearne Valley Leisure
-DESCRIPTION:Courts: Court 1\, Court 2\nBooking: https://dclt.gladstonego.cloud/book/calendar/DVBD5?activityDate=2026-11-14T17%3A00%3A00.000Z\nChecked: 2026-11-13T15:28:33.401963+00:00\nManaged by: dclt-badminton-n8n-poc\nSlot key: ad48b515f94e0bde\nNote: API availability only\; final booking/pricing not verified.
+DESCRIPTION:Courts: Court 1\, Court 2\nBooking: https://dclt.gladstonego.cloud/book/calendar/DVBD5?activityDate=2026-11-14T17%3A00%3A00.000Z\nChecked: 2026-11-13T15:58:52.744424+00:00\nManaged by: dclt-badminton-n8n-poc\nSlot key: ad48b515f94e0bde\nNote: API availability only\; final booking/pricing not verified.
 URL:https://dclt.gladstonego.cloud/book/calendar/DVBD5?activityDate=2026-11-14T17%3A00%3A00.000Z
 END:VEVENT
 BEGIN:VEVENT
 UID:c26bcd78991b7e48@dclt-badminton-n8n-poc.local
-DTSTAMP:20261113T152841Z
+DTSTAMP:20261113T155859Z
 DTSTART:20261114T180000Z
 DTEND:20261114T185959Z
 SUMMARY:Dearne Valley Leisure Badminton
 LOCATION:Dearne Valley Leisure
-DESCRIPTION:Courts: Court 1\, Court 2\nBooking: https://dclt.gladstonego.cloud/book/calendar/DVBD5?activityDate=2026-11-14T18%3A00%3A00.000Z\nChecked: 2026-11-13T15:28:33.401963+00:00\nManaged by: dclt-badminton-n8n-poc\nSlot key: c26bcd78991b7e48\nNote: API availability only\; final booking/pricing not verified.
+DESCRIPTION:Courts: Court 1\, Court 2\nBooking: https://dclt.gladstonego.cloud/book/calendar/DVBD5?activityDate=2026-11-14T18%3A00%3A00.000Z\nChecked: 2026-11-13T15:58:52.744424+00:00\nManaged by: dclt-badminton-n8n-poc\nSlot key: c26bcd78991b7e48\nNote: API availability only\; final booking/pricing not verified.
 URL:https://dclt.gladstonego.cloud/book/calendar/DVBD5?activityDate=2026-11-14T18%3A00%3A00.000Z
 END:VEVENT
 END:VCALENDAR
